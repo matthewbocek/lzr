@@ -1,0 +1,380 @@
+/*********** COLOR PALETTE ***********/
+
+
+/*********** UNIVERSAL STYLES ***********/
+@import url(http://fonts.googleapis.com/css?family=Loved+by+the+King);
+
+body {
+		background-color:#000;
+		background-image:url('../images/curtains.jpg');
+		background-repeat:no-repeat;
+		background-position: top center;
+}
+		
+div#wrapper {
+		width:960px;
+		margin:40px auto 0;
+}
+		
+div#header {
+		float:left;
+		width:100%;
+}
+	
+	div#header h1 a {
+		color:#fff;
+		text-decoration:none;
+		font-size:150%;
+		float:left;
+		font-family:arial;
+	}
+	
+	div#header h1 a span.bigz {
+		color:#ad1418;
+		font-size:400%;
+		position:relative;
+		top:30px;
+		line-height:58px;
+		font-family:"Loved+by+the+King";
+	}
+		
+	.whitez {
+		color:#fff;
+		font-family:"Loved+by+the+King";
+		font-size:420%;
+		position:absolute;
+		top:30px;
+		line-height:58px;
+	}
+	
+	div#nav {
+			float:left;
+			clear:left;
+	}
+
+		div#nav ul {
+				text-align:center;
+				width:100%;
+		}
+
+			div#nav ul li {
+					display: inline;
+					text-align:center;
+					list-style:none;
+					padding: 0 10px;
+					font-size:130%;
+			}
+					
+				div#nav ul li a{
+					text-decoration:none;
+					color:#fff;
+				}
+					
+			div#nav ul li.active a{
+					font-weight:bold;
+					text-decoration:underline;
+					color:#a5d146;
+			}
+
+				div#nav ul li a:hover {
+					color:#75a413;
+				}
+					
+	div#music_widget {
+			float:right;
+	}
+		
+div#middle {
+		float:left;
+		clear:left;
+		width:100%;
+}
+
+		div#sidebar {
+				float:right;
+				background-color:#c5659d;
+				border-radius:20px;
+				width:260px; /*full space = 300px*/
+				margin: 30px 20px 0;
+				}
+				
+			div#sidebar > * {
+					width:100%;
+					margin:  auto;
+					}
+			
+			div#sidebar a {
+					color:#fff;
+					text-decoration:none;
+			}
+			
+			div#sidebar a:hover {
+					color:#75a413;
+			}
+			
+			div#sidebar > h3 {
+					color:#fff;
+					border-top-left-radius: 15px;
+					border-top-right-radius: 15px;
+					text-align:center;
+					background-color:#8b1058;; 
+					border-top: 1px solid #32064c;
+					border-bottom: 1px solid #32064c;
+					height:25px;
+					padding-top:15px;
+					}
+				
+			div#sidebar > div.video_thumb {
+					padding: 8px 15px;
+					}
+				
+				div#sidebar > div.video_thumb img {
+
+				}
+		
+				div#sidebar > div.video_thumb h4{
+						display:inline;
+						padding: 26px 10px;
+						vertical-align:100%;
+				}
+			
+			div#sidebar > div.music_thumb {
+					padding: 8px 15px;
+			}
+		
+				div#sidebar > div.music_thumb img {
+
+				}
+				div#sidebar > div.music_thumb h4 {
+						display:inline;
+				}
+				
+			div#sidebar > div.music_thumb.active{
+					background-color:#fff;
+					color:#000;
+				}
+		
+	div#footer {
+			float:left;
+			clear:left;
+			width:100%;
+			text-align:center;
+		}
+			
+		div#footer_links {
+				width:800px;
+				margin:auto;
+				background-color:#3f3f3f;
+		}	
+	
+			div#footer_links > div {
+					width:200px;
+					float:left;
+					text-align:left;
+			}
+					
+				div#footer_links div ul {
+						padding-left:20px;
+				}
+						
+					div#footer_links div ul li {
+							list-style-type:none;
+							padding-left:5px;
+						}
+							
+					div#footer_links div ul li:first-child {
+							list-style-type:none;
+							padding-left:0;
+						}
+					
+					div#footer_links div ul li.active{
+							list-style-type:disc;		
+							color:#75a413;
+							text-decoration:underline;
+						}
+					
+						div#footer_links div ul li a, div#footer_links div a {
+							color:#d7f0ff;
+							text-decoration:none;
+							font-weight:bold;
+						}
+						
+						div#footer_links div ul li.active a, div#footer_links div a {
+							color:#75a413;
+							font-weight:bold;
+						}
+						
+						div#footer_links div a:hover {
+							color:#75a413;
+						}
+						
+		div#copyright {
+				clear:both;
+				border-top-left-radius: 15px;
+				border-top-right-radius: 15px;
+				background-color:#c5659d;
+				border-bottom:1px solid #a50537;
+				text-align:center;
+				width:960px;
+		}
+
+/*********** MAIN PAGE **********/
+				
+	div#main_feature {
+			width:100%;
+			background-image:url('../images/piano.png');
+			background-repeat:no-repeat;
+			height:330px;
+			overflow:hidden;
+	}
+		
+		div#main_feature p {
+				float:left;
+		}
+				
+		div#main_feature img {
+				position:relative;
+				top:20px;
+				left:101px;
+				border:2px solid black;
+		}
+		
+div#minor_features_container {
+			width:100%;
+			margin: 20px auto;
+			min-height: 240px;
+}
+	
+		div#minor_features_container > div {
+				width:300px;
+				height:240px;
+				float:left;
+				overflow:visible;
+				margin-right:30px;
+		}
+
+		div#minor_features_container > div.last {
+				margin-right:0px;
+		}
+		
+			div#minor_features_container > div > * {
+					width:100%;
+					padding:0 4px;
+					margin: 0;
+			}
+			
+			div#minor_features_container > div a {
+					text-decoration:none;
+					color:#000;
+			}
+			
+			div#minor_features_container > div h3 {
+					text-align:center;
+					background-color:#c5659d;
+					border-bottom:1px solid #a50537;
+					-moz-border-radius-topleft: 15px;
+					-moz-border-radius-topright: 15px;
+					border-radius: 15px 15px 0 0;
+			}
+			
+		div#minor_features_container > div h4 {
+				background-color:#c5659d;
+				text-align:right;
+				height:30px;
+				border-top:1px solid #a50537;
+				-moz-border-radius-bottomleft: 15px;
+				-moz-border-radius-bottomright: 15px;
+				border-radius: 0 0 15px 15px;
+		}
+			
+			div#minor_features_container > div p {
+					height:200px;
+					overflow:hidden;
+					background-color:#fff
+			}
+			
+			div#minor_features_container > div p img {
+					margin: 0 auto;
+					border: none;
+			}
+			
+/*********** VIDEO PAGE ***********/
+
+	div#video_feature {
+			width:640px;
+			background-image:url('../images/piano.png');
+			background-repeat:no-repeat;
+			/*height:330px;*/
+			overflow:hidden;
+			text-align:center;
+			float:left;
+		}
+			
+		div#video_feature h2 {
+			color:#fff;
+		}
+		
+		div#video_feature p {
+				text-align:left;
+				color:#fff;
+		}
+		
+/********** ABOUT PAGE ***********/	
+		div#about_feature {
+			width:640px;
+			background-image:url('../images/piano.png');
+			background-repeat:no-repeat;
+			/*height:330px;*/
+			overflow:hidden;
+			text-align:center;
+			float:left;
+		}
+			
+		div#about_feature h2 {
+			color:#fff;
+		}
+		
+		div#about_feature p {
+				text-align:left;
+				color:#fff;
+				background-color:black;
+				border-radius:20px;
+		}
+				
+		div#about_feature p img {
+				float:right;
+				border:2px solid white;
+		}
+		
+		
+/********** CONTACT PAGE ***********/
+		div#contact_feature {
+			width:640px;
+			background-image:url('../images/piano.png');
+			background-repeat:no-repeat;
+			/*height:330px;*/
+			overflow:hidden;
+			text-align:center;
+			float:left;
+		}
+			
+		div#contact_feature h2 {
+			color:#fff;
+		}
+		
+		div#contact_feature div {
+				border-radius:20px;
+				background-color:#fff;
+				text-align:left;
+				padding: 0 10px;
+				margin: 0 120px 0 80px;
+		}
+			
+		div#contact_feature div p{
+			width: 200px;
+		}
+		
+		div#contact_feature div table td:last-child {
+			text-align:right;
+			padding-right:10px;
+		}
