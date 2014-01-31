@@ -13,12 +13,12 @@ include(PHYSICAL_PATH . '/includes/header.php'); ?>
 			
 			<div><!-- start feature1 -->
 				<h3>
-					<a href="work/index.php">
+					<a href="work/video.php">
 						My Music
 					</a>
 				</h3>
 				<p>
-					<a href="work/index.php">
+					<a href="work/video.php">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam adipiscing dignissim dignissim. Pellentesque habitant
  morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce varius placerat rutrum. Mauris
  ultrices, dui sed tempor ultricies, leo ante semper justo, vitae elementum nulla arcu eu orci. Nunc mattis
@@ -40,29 +40,29 @@ Suspendisse rutrum justo eu sem condimentum blandit. Vestibulum sit amet lacus n
 					</a>
 				</p>
 				<h4>
-					<a href="work/index.php">continue</a>
+					<a href="work/video.php">continue</a>
 				</h4>
 			</div><!-- end feature1 -->
 				
 			<div><!-- start feature2 -->
 				<h3>
-					<a href="about/my_process.php">
+					<a href="about/about.php">
 						My Process
 					</a>
 				</h3>
 				<p>
-					<a href="about/my_process.php">
+					<a href="about/about.php">
 						<img src="images/both_guys.gif"/>
 					</a>
 				</p>
 				<h4>
-					<a href="about/my_process.php">continue</a>
+					<a href="about/about.php">continue</a>
 				</h4>
 			</div><!-- end feature2 -->
 			
 			<div class="last"><!-- start feature3 -->
 				<h3>
-					<a href="contact/commission_music.php">
+					<a href="contact/contact.php">
 						Commission Process
 					</a>
 				</h3>
